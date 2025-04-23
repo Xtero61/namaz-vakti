@@ -1,0 +1,1018 @@
+[gd_scene load_steps=136 format=3 uid="uid://r85cf48ik83k"]
+
+[ext_resource type="Script" uid="uid://yslrnukisf78" path="res://kuranı_kerim.gd" id="1_dncwb"]
+[ext_resource type="Texture2D" uid="uid://cbm4aowywlffv" path="res://Kuranı-Kerim/604.png" id="2_etv8l"]
+[ext_resource type="Texture2D" uid="uid://bcmels5u3qg8i" path="res://Kuranı-Kerim/0.png" id="2_ysc66"]
+[ext_resource type="Texture2D" uid="uid://46rimhq406a7" path="res://Kuranı-Kerim/1.png" id="3_j6bjx"]
+[ext_resource type="Texture2D" uid="uid://bxld70t4c7eda" path="res://Sure_icon/Fatiha.png" id="5_7hv36"]
+[ext_resource type="Texture2D" uid="uid://bv8swgiy0bhgm" path="res://Sure_icon/Bakara.png" id="6_5qghk"]
+[ext_resource type="Texture2D" uid="uid://bwhrxqfp0w7r7" path="res://Sure_icon/Ali imran.png" id="7_mi2la"]
+[ext_resource type="Texture2D" uid="uid://clxe7w45fe7bw" path="res://Sure_icon/nisa.png" id="8_4qb2q"]
+[ext_resource type="Texture2D" uid="uid://cudrl7bj1pcng" path="res://Sure_icon/maide.png" id="9_016s4"]
+[ext_resource type="Texture2D" uid="uid://d4aj27fb3qyxl" path="res://Sure_icon/enam.png" id="10_e6o5j"]
+[ext_resource type="Texture2D" uid="uid://7ljhs5ndcy6q" path="res://Sure_icon/Araf.png" id="11_fvn0p"]
+[ext_resource type="Texture2D" uid="uid://o5howaoeeqxq" path="res://Sure_icon/Enfal.png" id="12_l5eam"]
+[ext_resource type="Texture2D" uid="uid://d0u36obomfavh" path="res://Sure_icon/tevbe.png" id="13_o8crl"]
+[ext_resource type="Texture2D" uid="uid://bqwoioe8dvdgm" path="res://Sure_icon/yunus.png" id="14_lleni"]
+[ext_resource type="Texture2D" uid="uid://nik6k1uk8ee5" path="res://Sure_icon/hud.png" id="15_u6uu2"]
+[ext_resource type="Texture2D" uid="uid://csetktk0wk7ut" path="res://Sure_icon/yusuf.png" id="16_3jkx1"]
+[ext_resource type="Texture2D" uid="uid://cp3j0euvg5kib" path="res://Sure_icon/rad.png" id="17_a42v0"]
+[ext_resource type="Texture2D" uid="uid://coclswsdc2cmv" path="res://Sure_icon/ibrahim.png" id="18_dflyu"]
+[ext_resource type="Texture2D" uid="uid://yx4jqo5dg0mv" path="res://Sure_icon/hicr.png" id="19_jx8dn"]
+[ext_resource type="Texture2D" uid="uid://qofyc3vgkjp0" path="res://Sure_icon/nahl.png" id="20_ie621"]
+[ext_resource type="Texture2D" uid="uid://d2ca0pr3hrffn" path="res://Sure_icon/isra.png" id="21_yvwpd"]
+[ext_resource type="Texture2D" uid="uid://tc7xtuo8a14i" path="res://Sure_icon/kehf.png" id="22_rbuhj"]
+[ext_resource type="Texture2D" uid="uid://qdoyvesw7nl" path="res://Sure_icon/meryem.png" id="23_iotxr"]
+[ext_resource type="Texture2D" uid="uid://7f5ffbp28quo" path="res://Sure_icon/taha.png" id="24_prab4"]
+[ext_resource type="Texture2D" uid="uid://db7xiuq7emq7s" path="res://Sure_icon/enbiya.png" id="25_8w3wv"]
+[ext_resource type="Texture2D" uid="uid://becxwio7plww6" path="res://Sure_icon/hac.png" id="26_6wqcs"]
+[ext_resource type="Texture2D" uid="uid://cmlx8j0q10die" path="res://Sure_icon/muminun.png" id="27_rxdwg"]
+[ext_resource type="Texture2D" uid="uid://ykpxnu5rwy72" path="res://Sure_icon/nur.png" id="28_ybrtj"]
+[ext_resource type="Texture2D" uid="uid://bayniwr07woea" path="res://Sure_icon/furkan.png" id="29_jm3bp"]
+[ext_resource type="Texture2D" uid="uid://cjpo3ib1q2si7" path="res://Sure_icon/şuara.png" id="30_280ad"]
+[ext_resource type="Texture2D" uid="uid://blu7lnfflij0l" path="res://Sure_icon/neml.png" id="31_e43ot"]
+[ext_resource type="Texture2D" uid="uid://bdp7m173aighs" path="res://Sure_icon/kasas.png" id="32_7xdyv"]
+[ext_resource type="Texture2D" uid="uid://b4ate4one7opm" path="res://Sure_icon/ankebut.png" id="33_50u3t"]
+[ext_resource type="Texture2D" uid="uid://b6oy2406bubm8" path="res://Sure_icon/rum.png" id="34_p8eh0"]
+[ext_resource type="Texture2D" uid="uid://m6i4s53gy3e6" path="res://Sure_icon/lokman.png" id="35_ci1c7"]
+[ext_resource type="Texture2D" uid="uid://byuyiqiov3b73" path="res://Sure_icon/secde.png" id="36_ep5v2"]
+[ext_resource type="Texture2D" uid="uid://x7qnaontiybu" path="res://Sure_icon/ahzab.png" id="37_uf2s6"]
+[ext_resource type="Texture2D" uid="uid://d2b3vm56hrjf5" path="res://Sure_icon/sebe.png" id="38_fwu5a"]
+[ext_resource type="Texture2D" uid="uid://dofe3vc5awqjl" path="res://Sure_icon/fatır.png" id="39_rw7vj"]
+[ext_resource type="Texture2D" uid="uid://b5b6qjf6xaawo" path="res://Sure_icon/yasin.png" id="40_14tru"]
+[ext_resource type="Texture2D" uid="uid://b3sif0uv8i67s" path="res://Sure_icon/saffat.png" id="41_wdgw2"]
+[ext_resource type="Texture2D" uid="uid://pig13p2uas7h" path="res://Sure_icon/sad.png" id="42_m7ajl"]
+[ext_resource type="Texture2D" uid="uid://cdr81bvelxxxw" path="res://Sure_icon/zümer.png" id="43_hpqol"]
+[ext_resource type="Texture2D" uid="uid://d2hpn3jbh2mov" path="res://Sure_icon/mumin.png" id="44_a42v0"]
+[ext_resource type="Texture2D" uid="uid://b1nbo4e2ksbjr" path="res://Sure_icon/fussilet.png" id="45_dflyu"]
+[ext_resource type="Texture2D" uid="uid://c4r6edhqgu5jr" path="res://Sure_icon/şura.png" id="46_jx8dn"]
+[ext_resource type="Texture2D" uid="uid://c0mogf35f7pwd" path="res://Sure_icon/zuhruf.png" id="47_ie621"]
+[ext_resource type="Texture2D" uid="uid://bkf3h1t6vwsj2" path="res://Sure_icon/duhan.png" id="48_yvwpd"]
+[ext_resource type="Texture2D" uid="uid://bndifvj3i7p1" path="res://Sure_icon/casiye.png" id="49_rbuhj"]
+[ext_resource type="Texture2D" uid="uid://dy1w24hcbok86" path="res://Sure_icon/ahkaf.png" id="50_rxdwg"]
+[ext_resource type="Texture2D" uid="uid://b6fj8w78xdsiu" path="res://Sure_icon/muhammed.png" id="51_ybrtj"]
+[ext_resource type="Texture2D" uid="uid://d0565jxkoimhx" path="res://Sure_icon/fetih.png" id="52_jm3bp"]
+[ext_resource type="Texture2D" uid="uid://djqaprvdqdrlw" path="res://Sure_icon/hucurat.png" id="53_280ad"]
+[ext_resource type="Texture2D" uid="uid://dc6jl822yho0e" path="res://Sure_icon/kaf.png" id="54_e43ot"]
+[ext_resource type="Texture2D" uid="uid://b2xvorf8lr0kc" path="res://Sure_icon/zariyat.png" id="55_7xdyv"]
+[ext_resource type="Texture2D" uid="uid://bcko3q266kmbv" path="res://Sure_icon/tür.png" id="56_50u3t"]
+[ext_resource type="Texture2D" uid="uid://dp00ucoaake2j" path="res://Sure_icon/necm.png" id="57_p8eh0"]
+[ext_resource type="Texture2D" uid="uid://ve3olqnge81i" path="res://Sure_icon/kamer.png" id="58_ci1c7"]
+[ext_resource type="Texture2D" uid="uid://cx3bhat6ox0aa" path="res://Sure_icon/rahman.png" id="59_ep5v2"]
+[ext_resource type="Texture2D" uid="uid://bmqex16ddspxj" path="res://Sure_icon/vakıa.png" id="60_7xdyv"]
+[ext_resource type="Texture2D" uid="uid://c87u1t4kb854a" path="res://Sure_icon/hadid.png" id="61_50u3t"]
+[ext_resource type="Texture2D" uid="uid://dncg10my52ehc" path="res://Sure_icon/mücadele.png" id="62_p8eh0"]
+[ext_resource type="Texture2D" uid="uid://co32k2qtrbf0q" path="res://Sure_icon/haşr.png" id="63_ci1c7"]
+[ext_resource type="Texture2D" uid="uid://c31gl6ckmpwvo" path="res://Sure_icon/memtehine.png" id="64_ep5v2"]
+[ext_resource type="Texture2D" uid="uid://mvour15fgsxk" path="res://Sure_icon/saf.png" id="65_uf2s6"]
+[ext_resource type="Texture2D" uid="uid://cxjg6rryo5das" path="res://Sure_icon/cuma.png" id="66_fwu5a"]
+[ext_resource type="Texture2D" uid="uid://bn7krmxereabv" path="res://Sure_icon/münafikun.png" id="67_rw7vj"]
+[ext_resource type="Texture2D" uid="uid://umd5gncuaink" path="res://Sure_icon/teğabün.png" id="68_14tru"]
+[ext_resource type="Texture2D" uid="uid://b1kfhnc0yl87p" path="res://Sure_icon/talak.png" id="69_wdgw2"]
+[ext_resource type="Texture2D" uid="uid://51f8oik773fh" path="res://Sure_icon/tahrim.png" id="70_m7ajl"]
+[ext_resource type="Texture2D" uid="uid://d1bv22k3epswk" path="res://Sure_icon/mülk.png" id="71_hpqol"]
+[ext_resource type="Texture2D" uid="uid://wskw5bihfod6" path="res://Sure_icon/kalem.png" id="72_salya"]
+[ext_resource type="Texture2D" uid="uid://ckxtnsnufjxc5" path="res://Sure_icon/hakka.png" id="73_fov3n"]
+[ext_resource type="Texture2D" uid="uid://3bky638e88a" path="res://Sure_icon/mearic.png" id="74_k7xol"]
+[ext_resource type="Texture2D" uid="uid://seaxxinikiim" path="res://Sure_icon/nuh.png" id="75_saqb1"]
+[ext_resource type="Texture2D" uid="uid://bnchsebpdukgu" path="res://Sure_icon/cin.png" id="76_uxnyk"]
+[ext_resource type="Texture2D" uid="uid://cbfbgj4ypjgoy" path="res://Sure_icon/müzzemil.png" id="77_rj07r"]
+[ext_resource type="Texture2D" uid="uid://deyy6xvfgb57e" path="res://Sure_icon/müddersir.png" id="78_qwhp2"]
+[ext_resource type="Texture2D" uid="uid://dv217nag5e4r8" path="res://Sure_icon/kıyamet.png" id="79_dn5f8"]
+[ext_resource type="Texture2D" uid="uid://dabmxfv8k4kaa" path="res://Sure_icon/insan.png" id="80_2ia7s"]
+[ext_resource type="Texture2D" uid="uid://dcs438u3xx5ng" path="res://Sure_icon/mürselat.png" id="81_1e7cm"]
+[ext_resource type="Texture2D" uid="uid://bdldeqgvmt3ws" path="res://Sure_icon/nebe.png" id="82_14ckd"]
+[ext_resource type="Texture2D" uid="uid://wfn0whc27lw5" path="res://Sure_icon/naziat.png" id="83_vvf3v"]
+[ext_resource type="Texture2D" uid="uid://cxar4f7xo2vyo" path="res://Sure_icon/abese.png" id="84_hignm"]
+[ext_resource type="Texture2D" uid="uid://cmadi42788dic" path="res://Sure_icon/tekvir.png" id="85_7o34h"]
+[ext_resource type="Texture2D" uid="uid://idevebcucd4y" path="res://Sure_icon/infitar.png" id="86_u30vj"]
+[ext_resource type="Texture2D" uid="uid://bqkp8hbp5vkr5" path="res://Sure_icon/mutaffifin.png" id="87_ql1ao"]
+[ext_resource type="Texture2D" uid="uid://c2vcg7d3xpakt" path="res://Sure_icon/inşikak.png" id="88_kwrrp"]
+[ext_resource type="Texture2D" uid="uid://ca4q88hbuwpn3" path="res://Sure_icon/büruc.png" id="89_gosk2"]
+[ext_resource type="Texture2D" uid="uid://5whf0xiqgxhj" path="res://Sure_icon/tarık.png" id="90_abvnb"]
+[ext_resource type="Texture2D" uid="uid://dyhwalrqt5rg1" path="res://Sure_icon/ala.png" id="91_kx3kr"]
+[ext_resource type="Texture2D" uid="uid://bxiqgn2y73546" path="res://Sure_icon/gaşiye.png" id="92_q60fr"]
+[ext_resource type="Texture2D" uid="uid://c6r0cj1uclt61" path="res://Sure_icon/fecr.png" id="93_q8rtj"]
+[ext_resource type="Texture2D" uid="uid://ram35ubfi8yk" path="res://Sure_icon/beled.png" id="94_dqtqt"]
+[ext_resource type="Texture2D" uid="uid://cqlw3nfkkdldy" path="res://Sure_icon/şems.png" id="95_j6hvt"]
+[ext_resource type="Texture2D" uid="uid://bsorn2dh01uwa" path="res://Sure_icon/leyl.png" id="96_6ooad"]
+[ext_resource type="Texture2D" uid="uid://b4ffo45hbhf2d" path="res://Sure_icon/duha.png" id="97_pflya"]
+[ext_resource type="Texture2D" uid="uid://coh44m2k7pl1j" path="res://Sure_icon/inşirak.png" id="98_1fri8"]
+[ext_resource type="Texture2D" uid="uid://r7yde66vbtlu" path="res://Sure_icon/tin.png" id="99_3cl58"]
+[ext_resource type="Texture2D" uid="uid://c443pj41fybgy" path="res://Sure_icon/alak.png" id="100_w5810"]
+[ext_resource type="Texture2D" uid="uid://d2k1yqhqj4jo1" path="res://Sure_icon/kadir.png" id="101_a7b7o"]
+[ext_resource type="Texture2D" uid="uid://csdackpahp5cf" path="res://Sure_icon/beyyine.png" id="102_tft0r"]
+[ext_resource type="Texture2D" uid="uid://drx2x55uw5woj" path="res://Sure_icon/zilzal.png" id="103_3jvdf"]
+[ext_resource type="Texture2D" uid="uid://dns3yq6i5kh4y" path="res://Sure_icon/adiyat.png" id="104_pj12y"]
+[ext_resource type="Texture2D" uid="uid://hx3eqn1ibkrl" path="res://Sure_icon/karia.png" id="105_gs7ca"]
+[ext_resource type="Texture2D" uid="uid://btfe528rxid0y" path="res://Sure_icon/tekasür.png" id="106_7jsya"]
+[ext_resource type="Texture2D" uid="uid://bn107fbopdmm3" path="res://Sure_icon/asr.png" id="107_wgt4h"]
+[ext_resource type="Texture2D" uid="uid://edyjyyjwehch" path="res://Sure_icon/hümeze.png" id="108_7bq37"]
+[ext_resource type="Texture2D" uid="uid://dosuju4hsopwu" path="res://Sure_icon/fil.png" id="109_jd4ax"]
+[ext_resource type="Texture2D" uid="uid://byt3t0pm5pv5o" path="res://Sure_icon/kureyş.png" id="110_o4imn"]
+[ext_resource type="Texture2D" uid="uid://wujx4hh7jkp7" path="res://Sure_icon/maun.png" id="111_ssoj5"]
+[ext_resource type="Texture2D" uid="uid://mjcvy1u02n5b" path="res://Sure_icon/kevser.png" id="112_owe78"]
+[ext_resource type="Texture2D" uid="uid://dokntvnvi2k12" path="res://Sure_icon/kafirun.png" id="113_gu7p2"]
+[ext_resource type="Texture2D" uid="uid://cmhix2xof2unk" path="res://Sure_icon/nasr.png" id="114_ymb6f"]
+[ext_resource type="Texture2D" uid="uid://dxa4qwnrh5kho" path="res://Sure_icon/tebbet.png" id="115_ymb6f"]
+[ext_resource type="Texture2D" uid="uid://bly81bshyrsub" path="res://Sure_icon/ihlas.png" id="116_p6xmc"]
+[ext_resource type="Texture2D" uid="uid://1y3vaig4k132" path="res://Sure_icon/felak.png" id="117_inhm5"]
+[ext_resource type="Texture2D" uid="uid://snbkwqy8pjey" path="res://Sure_icon/nas.png" id="118_wy1cs"]
+[ext_resource type="Texture2D" uid="uid://02o565vimxyn" path="res://icon/moon.png" id="119_inhm5"]
+[ext_resource type="Texture2D" uid="uid://bcgl7f6g0ybbu" path="res://icon/left.png" id="120_wy1cs"]
+
+[sub_resource type="Theme" id="Theme_q5glm"]
+default_font_size = 20
+OptionButton/constants/outline_size = 10
+
+[sub_resource type="Theme" id="Theme_ymb6f"]
+Button/constants/outline_size = 10
+
+[sub_resource type="Theme" id="Theme_p6xmc"]
+Button/constants/outline_size = 10
+
+[sub_resource type="Animation" id="Animation_ymb6f"]
+resource_name = "Açılış"
+length = 0.15
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Acılıs-Kapanıs-Ekran:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667, 0.15),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Acılıs-Kapanıs-Ekran:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.15),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="Animation" id="Animation_p6xmc"]
+resource_name = "Geri"
+length = 0.11
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Acılıs-Kapanıs-Ekran:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Acılıs-Kapanıs-Ekran:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.11),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"GeriGitme"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_eeqp2"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_qulb6"]
+resource_name = "SagdanSola"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Control/SayfaDegis:value")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [69.0, 35.0]
+}
+
+[sub_resource type="Animation" id="Animation_7ffla"]
+resource_name = "SoldanSaga"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Control/SayfaDegis:value")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 35.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5a7k0"]
+_data = {
+&"Açılış": SubResource("Animation_ymb6f"),
+&"Geri": SubResource("Animation_p6xmc"),
+&"RESET": SubResource("Animation_eeqp2"),
+&"SagdanSola": SubResource("Animation_qulb6"),
+&"SoldanSaga": SubResource("Animation_7ffla")
+}
+
+[sub_resource type="Animation" id="Animation_uutqs"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_siaai"]
+resource_name = "SayfaDegisSag"
+length = 0.51
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Control/BakilanSayfa:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.5001),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 75), Vector2(-720, 75), Vector2(0, 75)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Control/OncekiSayfa:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.5001),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(720, 75), Vector2(0, 75), Vector2(720, 75)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.5001),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"SayfalariYukleme"
+}]
+}
+tracks/3/type = "animation"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("SayfaDegisTusAnimationPlayer")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"clips": PackedStringArray("SagdanSola"),
+"times": PackedFloat32Array(0)
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Control/BakilanSayfa:size")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(718, 1205)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Control/OncekiSayfa:size")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(735, 1205)]
+}
+
+[sub_resource type="Animation" id="Animation_y6o0f"]
+resource_name = "SayfaDegisSol"
+length = 0.51
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Control/SonrakiSayfa:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.5001),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-735, 75), Vector2(0, 75), Vector2(-735, 75)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Control/BakilanSayfa:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.5001),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 75), Vector2(720, 75), Vector2(0, 75)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.5001),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"SayfalariYukleme"
+}]
+}
+tracks/3/type = "animation"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("SayfaDegisTusAnimationPlayer")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"clips": PackedStringArray("SoldanSaga"),
+"times": PackedFloat32Array(0)
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Control/BakilanSayfa:size")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(718, 1205)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Control/SonrakiSayfa:size")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(735, 1205)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5006m"]
+_data = {
+&"RESET": SubResource("Animation_uutqs"),
+&"SayfaDegisSag": SubResource("Animation_siaai"),
+&"SayfaDegisSol": SubResource("Animation_y6o0f")
+}
+
+[sub_resource type="Animation" id="Animation_wy1cs"]
+resource_name = "UstMenüKapanma"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Control/BakilanSayfa:size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(718, 1205), Vector2(718, 1280)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Control/BakilanSayfa:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 75), Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../menu/ColorRect:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -75)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../Control/SonrakiSayfa:size")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(735, 1205), Vector2(735, 1280)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../Control/SonrakiSayfa:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-735, 75), Vector2(-735, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../Control/OncekiSayfa:size")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(735, 1205), Vector2(735, 1280)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../Control/OncekiSayfa:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(720, 75), Vector2(720, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ma214"]
+_data = {
+&"UstMenüKapanma": SubResource("Animation_wy1cs")
+}
+
+[node name="Kuranı_Kerim" type="Node2D"]
+script = ExtResource("1_dncwb")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 720.0
+offset_bottom = 1280.0
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Karanlık" type="ColorRect" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.0732422
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.713726)
+metadata/_edit_use_anchors_ = true
+
+[node name="OncekiSayfa" type="TextureRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 2.0
+anchor_bottom = 1.0
+offset_top = 75.0
+offset_right = 15.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("2_etv8l")
+
+[node name="BakilanSayfa" type="TextureRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 75.0
+offset_right = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ysc66")
+
+[node name="SonrakiSayfa" type="TextureRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -1.0
+anchor_bottom = 1.0
+offset_left = -15.0
+offset_top = 75.0
+grow_vertical = 2
+texture = ExtResource("3_j6bjx")
+
+[node name="SayfaDegis" type="HScrollBar" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.172358
+anchor_top = 0.794922
+anchor_right = 0.856911
+anchor_bottom = 0.912109
+grow_horizontal = 2
+grow_vertical = 0
+page = 30.0
+value = 35.0
+rounded = true
+custom_step = 100.0
+metadata/_edit_use_anchors_ = true
+
+[node name="menu" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 615.0
+offset_bottom = 93.0
+
+[node name="ColorRect" type="ColorRect" parent="menu"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.17073
+anchor_bottom = 0.806451
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.233925, 0.233925, 0.233925, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="SureSecim" type="OptionButton" parent="menu/ColorRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.354472
+anchor_right = 0.996748
+anchor_bottom = 1.0
+focus_mode = 0
+theme = SubResource("Theme_q5glm")
+theme_override_constants/outline_size = 10
+theme_override_constants/h_separation = 25
+theme_override_font_sizes/font_size = 20
+theme_override_constants/arrow_margin = 20
+icon_alignment = 2
+selected = 0
+item_count = 114
+popup/item_0/text = "Fâtiha Sûresi"
+popup/item_0/icon = ExtResource("5_7hv36")
+popup/item_0/id = 0
+popup/item_1/text = "Bakara Sûresi"
+popup/item_1/icon = ExtResource("6_5qghk")
+popup/item_1/id = 1
+popup/item_2/text = "Âl-i İmrân Sûresi"
+popup/item_2/icon = ExtResource("7_mi2la")
+popup/item_2/id = 2
+popup/item_3/text = "Nisâ Sûresi"
+popup/item_3/icon = ExtResource("8_4qb2q")
+popup/item_3/id = 3
+popup/item_4/text = "Mâide Sûresi"
+popup/item_4/icon = ExtResource("9_016s4")
+popup/item_4/id = 4
+popup/item_5/text = "En'âm Sûresi"
+popup/item_5/icon = ExtResource("10_e6o5j")
+popup/item_5/id = 5
+popup/item_6/text = "A'râf Sûresi"
+popup/item_6/icon = ExtResource("11_fvn0p")
+popup/item_6/id = 6
+popup/item_7/text = "Enfâl Sûresi"
+popup/item_7/icon = ExtResource("12_l5eam")
+popup/item_7/id = 7
+popup/item_8/text = "Tevbe Sûresi"
+popup/item_8/icon = ExtResource("13_o8crl")
+popup/item_8/id = 8
+popup/item_9/text = "Yunus Sûresi"
+popup/item_9/icon = ExtResource("14_lleni")
+popup/item_9/id = 9
+popup/item_10/text = "Hûd Sûresi"
+popup/item_10/icon = ExtResource("15_u6uu2")
+popup/item_10/id = 10
+popup/item_11/text = "Yusuf Sûresi"
+popup/item_11/icon = ExtResource("16_3jkx1")
+popup/item_11/id = 11
+popup/item_12/text = "Ra'd Sûresi"
+popup/item_12/icon = ExtResource("17_a42v0")
+popup/item_12/id = 12
+popup/item_13/text = "İbrahim Sûresi"
+popup/item_13/icon = ExtResource("18_dflyu")
+popup/item_13/id = 13
+popup/item_14/text = "Hicr Sûresi"
+popup/item_14/icon = ExtResource("19_jx8dn")
+popup/item_14/id = 14
+popup/item_15/text = "Nahl Sûresi"
+popup/item_15/icon = ExtResource("20_ie621")
+popup/item_15/id = 15
+popup/item_16/text = "İsrâ Sûresi"
+popup/item_16/icon = ExtResource("21_yvwpd")
+popup/item_16/id = 16
+popup/item_17/text = "Kehf Sûresi"
+popup/item_17/icon = ExtResource("22_rbuhj")
+popup/item_17/id = 17
+popup/item_18/text = "Meryem Sûresi"
+popup/item_18/icon = ExtResource("23_iotxr")
+popup/item_18/id = 18
+popup/item_19/text = "Tâ-Hâ Sûresi"
+popup/item_19/icon = ExtResource("24_prab4")
+popup/item_19/id = 19
+popup/item_20/text = "Enbiyâ Sûresi"
+popup/item_20/icon = ExtResource("25_8w3wv")
+popup/item_20/id = 20
+popup/item_21/text = "Hac Sûresi"
+popup/item_21/icon = ExtResource("26_6wqcs")
+popup/item_21/id = 21
+popup/item_22/text = "Mü'minûn Sûresi"
+popup/item_22/icon = ExtResource("27_rxdwg")
+popup/item_22/id = 22
+popup/item_23/text = "Nûr Sûresi"
+popup/item_23/icon = ExtResource("28_ybrtj")
+popup/item_23/id = 23
+popup/item_24/text = "Furkan Sûresi"
+popup/item_24/icon = ExtResource("29_jm3bp")
+popup/item_24/id = 24
+popup/item_25/text = "Şuarâ Sûresi"
+popup/item_25/icon = ExtResource("30_280ad")
+popup/item_25/id = 25
+popup/item_26/text = "Neml Sûresi"
+popup/item_26/icon = ExtResource("31_e43ot")
+popup/item_26/id = 26
+popup/item_27/text = "Kasas Sûresi"
+popup/item_27/icon = ExtResource("32_7xdyv")
+popup/item_27/id = 27
+popup/item_28/text = "Ankebût Sûresi"
+popup/item_28/icon = ExtResource("33_50u3t")
+popup/item_28/id = 28
+popup/item_29/text = "Rûm Sûresi"
+popup/item_29/icon = ExtResource("34_p8eh0")
+popup/item_29/id = 29
+popup/item_30/text = "Lokman Sûresi"
+popup/item_30/icon = ExtResource("35_ci1c7")
+popup/item_30/id = 30
+popup/item_31/text = "Secde Sûresi"
+popup/item_31/icon = ExtResource("36_ep5v2")
+popup/item_31/id = 31
+popup/item_32/text = "Ahzâb Sûresi"
+popup/item_32/icon = ExtResource("37_uf2s6")
+popup/item_32/id = 32
+popup/item_33/text = "Sebe' Sûresi"
+popup/item_33/icon = ExtResource("38_fwu5a")
+popup/item_33/id = 33
+popup/item_34/text = "Fâtır Sûresi"
+popup/item_34/icon = ExtResource("39_rw7vj")
+popup/item_34/id = 34
+popup/item_35/text = "Yâsin Sûresi"
+popup/item_35/icon = ExtResource("40_14tru")
+popup/item_35/id = 35
+popup/item_36/text = "Sâffât Sûresi"
+popup/item_36/icon = ExtResource("41_wdgw2")
+popup/item_36/id = 36
+popup/item_37/text = "Sâd Sûresi"
+popup/item_37/icon = ExtResource("42_m7ajl")
+popup/item_37/id = 37
+popup/item_38/text = "Zümer Sûresi"
+popup/item_38/icon = ExtResource("43_hpqol")
+popup/item_38/id = 38
+popup/item_39/text = "Mü'min Sûresi"
+popup/item_39/icon = ExtResource("44_a42v0")
+popup/item_39/id = 39
+popup/item_40/text = "Fussilet Sûresi"
+popup/item_40/icon = ExtResource("45_dflyu")
+popup/item_40/id = 40
+popup/item_41/text = "Şûrâ Sûresi"
+popup/item_41/icon = ExtResource("46_jx8dn")
+popup/item_41/id = 41
+popup/item_42/text = "Zuhruf Sûresi"
+popup/item_42/icon = ExtResource("47_ie621")
+popup/item_42/id = 42
+popup/item_43/text = "Duhân Sûresi"
+popup/item_43/icon = ExtResource("48_yvwpd")
+popup/item_43/id = 43
+popup/item_44/text = "Câsiye Sûresi"
+popup/item_44/icon = ExtResource("49_rbuhj")
+popup/item_44/id = 44
+popup/item_45/text = "Ahkaf Sûresi"
+popup/item_45/icon = ExtResource("50_rxdwg")
+popup/item_45/id = 45
+popup/item_46/text = "Muhammed Sûresi"
+popup/item_46/icon = ExtResource("51_ybrtj")
+popup/item_46/id = 46
+popup/item_47/text = "Fetih Sûresi"
+popup/item_47/icon = ExtResource("52_jm3bp")
+popup/item_47/id = 47
+popup/item_48/text = "Hucurât Sûresi"
+popup/item_48/icon = ExtResource("53_280ad")
+popup/item_48/id = 48
+popup/item_49/text = "Kaf Sûresi"
+popup/item_49/icon = ExtResource("54_e43ot")
+popup/item_49/id = 49
+popup/item_50/text = "Zâriyât Sûresi"
+popup/item_50/icon = ExtResource("55_7xdyv")
+popup/item_50/id = 50
+popup/item_51/text = "Tûr Sûresi"
+popup/item_51/icon = ExtResource("56_50u3t")
+popup/item_51/id = 51
+popup/item_52/text = "Necm Sûresi"
+popup/item_52/icon = ExtResource("57_p8eh0")
+popup/item_52/id = 52
+popup/item_53/text = "Kamer Sûresi"
+popup/item_53/icon = ExtResource("58_ci1c7")
+popup/item_53/id = 53
+popup/item_54/text = "Rahmân Sûresi"
+popup/item_54/icon = ExtResource("59_ep5v2")
+popup/item_54/id = 54
+popup/item_55/text = "Vâkıa Sûresi"
+popup/item_55/icon = ExtResource("60_7xdyv")
+popup/item_55/id = 55
+popup/item_56/text = "Hadid Sûresi"
+popup/item_56/icon = ExtResource("61_50u3t")
+popup/item_56/id = 56
+popup/item_57/text = "Mücâdele Sûresi"
+popup/item_57/icon = ExtResource("62_p8eh0")
+popup/item_57/id = 57
+popup/item_58/text = "Haşr Sûresi"
+popup/item_58/icon = ExtResource("63_ci1c7")
+popup/item_58/id = 58
+popup/item_59/text = "Mümtehine Sûresi"
+popup/item_59/icon = ExtResource("64_ep5v2")
+popup/item_59/id = 59
+popup/item_60/text = "Saf Sûresi"
+popup/item_60/icon = ExtResource("65_uf2s6")
+popup/item_60/id = 60
+popup/item_61/text = "Cuma Sûresi"
+popup/item_61/icon = ExtResource("66_fwu5a")
+popup/item_61/id = 61
+popup/item_62/text = "Münâfikûn Sûresi"
+popup/item_62/icon = ExtResource("67_rw7vj")
+popup/item_62/id = 62
+popup/item_63/text = "Teğabün Sûresi"
+popup/item_63/icon = ExtResource("68_14tru")
+popup/item_63/id = 63
+popup/item_64/text = "Talâk Sûresi"
+popup/item_64/icon = ExtResource("69_wdgw2")
+popup/item_64/id = 64
+popup/item_65/text = "Tahrim Sûresi"
+popup/item_65/icon = ExtResource("70_m7ajl")
+popup/item_65/id = 65
+popup/item_66/text = "Mülk Sûresi"
+popup/item_66/icon = ExtResource("71_hpqol")
+popup/item_66/id = 66
+popup/item_67/text = "Kalem Sûresi"
+popup/item_67/icon = ExtResource("72_salya")
+popup/item_67/id = 67
+popup/item_68/text = "Hâkka Sûresi"
+popup/item_68/icon = ExtResource("73_fov3n")
+popup/item_68/id = 68
+popup/item_69/text = "Meâric Sûresi"
+popup/item_69/icon = ExtResource("74_k7xol")
+popup/item_69/id = 69
+popup/item_70/text = "Nuh Sûresi"
+popup/item_70/icon = ExtResource("75_saqb1")
+popup/item_70/id = 70
+popup/item_71/text = "Cin Sûresi"
+popup/item_71/icon = ExtResource("76_uxnyk")
+popup/item_71/id = 71
+popup/item_72/text = "Müzzemmil Sûresi"
+popup/item_72/icon = ExtResource("77_rj07r")
+popup/item_72/id = 72
+popup/item_73/text = "Müddessir Sûresi"
+popup/item_73/icon = ExtResource("78_qwhp2")
+popup/item_73/id = 73
+popup/item_74/text = "Kıyamet Sûresi"
+popup/item_74/icon = ExtResource("79_dn5f8")
+popup/item_74/id = 74
+popup/item_75/text = "İnsan Sûresi"
+popup/item_75/icon = ExtResource("80_2ia7s")
+popup/item_75/id = 75
+popup/item_76/text = "Mürselât Sûresi"
+popup/item_76/icon = ExtResource("81_1e7cm")
+popup/item_76/id = 76
+popup/item_77/text = "Nebe' Sûresi"
+popup/item_77/icon = ExtResource("82_14ckd")
+popup/item_77/id = 77
+popup/item_78/text = "Nâziât Sûresi"
+popup/item_78/icon = ExtResource("83_vvf3v")
+popup/item_78/id = 78
+popup/item_79/text = "Abese Sûresi"
+popup/item_79/icon = ExtResource("84_hignm")
+popup/item_79/id = 79
+popup/item_80/text = "Tekvir Sûresi"
+popup/item_80/icon = ExtResource("85_7o34h")
+popup/item_80/id = 80
+popup/item_81/text = "İnfitâr Sûresi"
+popup/item_81/icon = ExtResource("86_u30vj")
+popup/item_81/id = 81
+popup/item_82/text = "Mutaffifin Sûresi"
+popup/item_82/icon = ExtResource("87_ql1ao")
+popup/item_82/id = 82
+popup/item_83/text = "İnşikak Sûresi"
+popup/item_83/icon = ExtResource("88_kwrrp")
+popup/item_83/id = 83
+popup/item_84/text = "Bürûc Sûresi"
+popup/item_84/icon = ExtResource("89_gosk2")
+popup/item_84/id = 84
+popup/item_85/text = "Târık Sûresi"
+popup/item_85/icon = ExtResource("90_abvnb")
+popup/item_85/id = 85
+popup/item_86/text = "A'lâ Sûresi"
+popup/item_86/icon = ExtResource("91_kx3kr")
+popup/item_86/id = 86
+popup/item_87/text = "Gâşiye Sûresi"
+popup/item_87/icon = ExtResource("92_q60fr")
+popup/item_87/id = 87
+popup/item_88/text = "Fecr Sûresi"
+popup/item_88/icon = ExtResource("93_q8rtj")
+popup/item_88/id = 88
+popup/item_89/text = "Beled Sûresi"
+popup/item_89/icon = ExtResource("94_dqtqt")
+popup/item_89/id = 89
+popup/item_90/text = "Şems Sûresi"
+popup/item_90/icon = ExtResource("95_j6hvt")
+popup/item_90/id = 90
+popup/item_91/text = "Leyl Sûresi"
+popup/item_91/icon = ExtResource("96_6ooad")
+popup/item_91/id = 91
+popup/item_92/text = "Duhâ Sûresi"
+popup/item_92/icon = ExtResource("97_pflya")
+popup/item_92/id = 92
+popup/item_93/text = "İnşirâh Sûresi"
+popup/item_93/icon = ExtResource("98_1fri8")
+popup/item_93/id = 93
+popup/item_94/text = "Tin Sûresi"
+popup/item_94/icon = ExtResource("99_3cl58")
+popup/item_94/id = 94
+popup/item_95/text = "Alak Sûresi"
+popup/item_95/icon = ExtResource("100_w5810")
+popup/item_95/id = 95
+popup/item_96/text = "Kadir Sûresi"
+popup/item_96/icon = ExtResource("101_a7b7o")
+popup/item_96/id = 96
+popup/item_97/text = "Beyyine Sûresi"
+popup/item_97/icon = ExtResource("102_tft0r")
+popup/item_97/id = 97
+popup/item_98/text = "Zilzâl Sûresi"
+popup/item_98/icon = ExtResource("103_3jvdf")
+popup/item_98/id = 98
+popup/item_99/text = "Âdiyât Sûresi"
+popup/item_99/icon = ExtResource("104_pj12y")
+popup/item_99/id = 99
+popup/item_100/text = "Kâria Sûresi"
+popup/item_100/icon = ExtResource("105_gs7ca")
+popup/item_100/id = 100
+popup/item_101/text = "Tekâsür Sûresi"
+popup/item_101/icon = ExtResource("106_7jsya")
+popup/item_101/id = 101
+popup/item_102/text = "Asr Sûresi"
+popup/item_102/icon = ExtResource("107_wgt4h")
+popup/item_102/id = 102
+popup/item_103/text = "Hümeze Sûresi"
+popup/item_103/icon = ExtResource("108_7bq37")
+popup/item_103/id = 103
+popup/item_104/text = "Fil Sûresi"
+popup/item_104/icon = ExtResource("109_jd4ax")
+popup/item_104/id = 104
+popup/item_105/text = "Kureyş Sûresi"
+popup/item_105/icon = ExtResource("110_o4imn")
+popup/item_105/id = 105
+popup/item_106/text = "Mâûn Sûresi"
+popup/item_106/icon = ExtResource("111_ssoj5")
+popup/item_106/id = 106
+popup/item_107/text = "Kevser Sûresi"
+popup/item_107/icon = ExtResource("112_owe78")
+popup/item_107/id = 107
+popup/item_108/text = "Kâfirûn Sûresi"
+popup/item_108/icon = ExtResource("113_gu7p2")
+popup/item_108/id = 108
+popup/item_109/text = "Nasr Sûresi"
+popup/item_109/icon = ExtResource("114_ymb6f")
+popup/item_109/id = 109
+popup/item_110/text = "Tebbet Sûresi"
+popup/item_110/icon = ExtResource("115_ymb6f")
+popup/item_110/id = 110
+popup/item_111/text = "İhlâs Sûresi"
+popup/item_111/icon = ExtResource("116_p6xmc")
+popup/item_111/id = 111
+popup/item_112/text = "Felâk Sûresi"
+popup/item_112/icon = ExtResource("117_inhm5")
+popup/item_112/id = 112
+popup/item_113/text = "Nâs Sûresi"
+popup/item_113/icon = ExtResource("118_wy1cs")
+popup/item_113/id = 113
+metadata/_edit_use_anchors_ = true
+
+[node name="KaranlıkTema" type="Button" parent="menu/ColorRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.130556
+anchor_right = 0.230556
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_ymb6f")
+theme_override_font_sizes/font_size = 27
+icon = ExtResource("119_inhm5")
+metadata/_edit_use_anchors_ = true
+
+[node name="Geri" type="Button" parent="menu/ColorRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0152778
+anchor_right = 0.115278
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_p6xmc")
+theme_override_font_sizes/font_size = 28
+icon = ExtResource("120_wy1cs")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button2" type="Button" parent="menu/ColorRect"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.243902
+anchor_top = 0.173333
+anchor_right = 0.323577
+anchor_bottom = 0.813333
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="SayfaDegisTusAnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_5a7k0")
+}
+autoplay = "Açılış"
+
+[node name="SayfaAnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_5006m")
+}
+
+[node name="MenuAnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../SayfaAnimationPlayer")
+libraries = {
+&"": SubResource("AnimationLibrary_ma214")
+}
+
+[node name="Acılıs-Kapanıs-Ekran" type="ColorRect" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0)
+offset_right = 720.0
+offset_bottom = 1280.0
+color = Color(0, 0, 0, 1)
+
+[connection signal="item_selected" from="menu/ColorRect/SureSecim" to="." method="_on_sure_secim_item_selected"]
+[connection signal="pressed" from="menu/ColorRect/KaranlıkTema" to="." method="_on_karanlık_tema_pressed"]
+[connection signal="pressed" from="menu/ColorRect/Geri" to="." method="_on_geri_pressed"]
