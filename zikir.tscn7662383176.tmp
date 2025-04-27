@@ -1,0 +1,903 @@
+[gd_scene load_steps=42 format=3 uid="uid://da3ie55gvv5ci"]
+
+[ext_resource type="Script" uid="uid://cjk3legk0nj5i" path="res://zikir.gd" id="1_prh0u"]
+[ext_resource type="Texture2D" uid="uid://bcgl7f6g0ybbu" path="res://icon/left.png" id="2_g08pd"]
+[ext_resource type="Texture2D" uid="uid://xq0354nu3dvm" path="res://icon/Titreme.png" id="3_ow1ja"]
+[ext_resource type="Texture2D" uid="uid://d16kyrx6kc0uu" path="res://icon/settings.png" id="3_rccky"]
+[ext_resource type="Texture2D" uid="uid://02o565vimxyn" path="res://icon/moon.png" id="4_ow1ja"]
+[ext_resource type="Texture2D" uid="uid://bw8h4qtxvphoo" path="res://icon/ipucu.png" id="5_481mv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m3rhq"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 1000
+corner_radius_top_right = 1000
+corner_radius_bottom_right = 1000
+corner_radius_bottom_left = 1000
+
+[sub_resource type="Theme" id="Theme_kw2wa"]
+default_font_size = 45
+Label/constants/outline_size = 10
+Label/styles/normal = SubResource("StyleBoxFlat_m3rhq")
+
+[sub_resource type="Theme" id="Theme_ow1ja"]
+Label/constants/outline_size = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_337vf"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xkbow"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3pxjp"]
+bg_color = Color(0.144063, 0.144063, 0.144063, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="Theme" id="Theme_px4cw"]
+Button/constants/outline_size = 10
+Button/styles/hover = SubResource("StyleBoxFlat_337vf")
+Button/styles/normal = SubResource("StyleBoxFlat_xkbow")
+Button/styles/pressed = SubResource("StyleBoxFlat_3pxjp")
+Label/constants/outline_size = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uemtg"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 0.784314)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+
+[sub_resource type="Theme" id="Theme_g08pd"]
+Label/styles/normal = SubResource("StyleBoxFlat_uemtg")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1gvfr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g08pd"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 10
+border_width_right = 5
+border_width_bottom = 20
+border_color = Color(0.176471, 0.176471, 0.176471, 1)
+
+[sub_resource type="Theme" id="Theme_1gvfr"]
+AcceptDialog/constants/title_outline_size = 10
+AcceptDialog/styles/embedded_unfocused_border = SubResource("StyleBoxFlat_1gvfr")
+AcceptDialog/styles/panel = SubResource("StyleBoxFlat_g08pd")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xy7gs"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 80.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="Theme" id="Theme_f7fkh"]
+Label/constants/outline_size = 10
+Label/styles/normal = SubResource("StyleBoxFlat_xy7gs")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gdxgg"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 15.0
+expand_margin_top = 2.0
+expand_margin_right = 15.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kkxvn"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 15.0
+expand_margin_top = 2.0
+expand_margin_right = 15.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_owp0j"]
+bg_color = Color(0.133197, 0.133196, 0.133196, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 15.0
+expand_margin_top = 2.0
+expand_margin_right = 15.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="Theme" id="Theme_uemtg"]
+Button/constants/outline_size = 10
+Button/styles/hover = SubResource("StyleBoxFlat_gdxgg")
+Button/styles/normal = SubResource("StyleBoxFlat_kkxvn")
+Button/styles/pressed = SubResource("StyleBoxFlat_owp0j")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fcqrf"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="Theme" id="Theme_xy7gs"]
+Label/styles/normal = SubResource("StyleBoxFlat_fcqrf")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rccky"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 10.0
+expand_margin_right = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ow1ja"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 10.0
+expand_margin_right = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_481mv"]
+bg_color = Color(0.133333, 0.133333, 0.133333, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 10.0
+expand_margin_right = 10.0
+
+[sub_resource type="Theme" id="Theme_fcqrf"]
+Button/constants/outline_size = 10
+Button/styles/hover = SubResource("StyleBoxFlat_rccky")
+Button/styles/normal = SubResource("StyleBoxFlat_ow1ja")
+Button/styles/pressed = SubResource("StyleBoxFlat_481mv")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f7fkh"]
+draw_center = false
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xnqpc"]
+bg_color = Color(0.176471, 0.176471, 0.176471, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.384314, 0.384314, 0.384314, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0flv1"]
+bg_color = Color(0.114897, 0.114897, 0.114897, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.325441, 0.325441, 0.325441, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="Theme" id="Theme_7rce1"]
+LineEdit/styles/focus = SubResource("StyleBoxFlat_f7fkh")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_xnqpc")
+LineEdit/styles/read_only = SubResource("StyleBoxFlat_0flv1")
+
+[sub_resource type="Theme" id="Theme_481mv"]
+Label/constants/outline_size = 5
+
+[sub_resource type="Animation" id="Animation_yuyq1"]
+resource_name = "AyarlarAcilma"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0001, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(11, 1280), Vector2(720, 1280)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.001, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../../HedefMenu:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(720, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_uemtg"]
+resource_name = "Açılış"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../Acılıs-Kapanıs-Ekran:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../Acılıs-Kapanıs-Ekran:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="Animation" id="Animation_1gvfr"]
+resource_name = "Geri"
+length = 0.11
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../Acılıs-Kapanıs-Ekran:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../Acılıs-Kapanıs-Ekran:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../..")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.11),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"GeriGitme"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_fgdiu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../Acılıs-Kapanıs-Ekran:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../Acılıs-Kapanıs-Ekran:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_f7fkh"]
+resource_name = "RenSecim"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../HedefMenu/RenkArka:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.001, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../HedefMenu/RenkArka:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0001, 0.0002, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../../HedefMenu/RenkSecim:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.001, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../../HedefMenu/RenkSecim:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_yxt33"]
+_data = {
+&"AyarlarAcilma": SubResource("Animation_yuyq1"),
+&"Açılış": SubResource("Animation_uemtg"),
+&"Geri": SubResource("Animation_1gvfr"),
+&"RESET": SubResource("Animation_fgdiu"),
+&"RenSecim": SubResource("Animation_f7fkh")
+}
+
+[node name="Zikir" type="Node2D"]
+script = ExtResource("1_prh0u")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 720.0
+offset_bottom = 1280.0
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Karanlık" type="ColorRect" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.713726)
+metadata/_edit_use_anchors_ = true
+
+[node name="CekilenZikir" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.128455
+anchor_top = 0.139648
+anchor_right = 0.871545
+anchor_bottom = 0.255859
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_kw2wa")
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="CekilenZikirSayi" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 242.0
+offset_right = 605.0
+offset_bottom = 315.0
+theme = SubResource("Theme_ow1ja")
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ZikirSayi" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.128455
+anchor_top = 0.319336
+anchor_right = 0.871545
+anchor_bottom = 0.435547
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_kw2wa")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Zikir" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = 100.0
+offset_right = 200.0
+offset_bottom = 500.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+
+[node name="Sifirla" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.826016
+anchor_top = 0.471484
+anchor_right = 0.962602
+anchor_bottom = 0.546679
+offset_right = -4.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+text = "Sıfırla"
+metadata/_edit_use_anchors_ = true
+
+[node name="OptionButton" type="OptionButton" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -163.5
+offset_top = 43.0
+offset_right = 163.5
+offset_bottom = 108.0
+grow_horizontal = 2
+item_count = 1
+popup/item_0/id = 0
+
+[node name="Geri" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0373984
+anchor_top = 0.0224609
+anchor_right = 0.16748
+anchor_bottom = 0.100586
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+theme_override_font_sizes/font_size = 50
+icon = ExtResource("2_g08pd")
+icon_alignment = 1
+text_direction = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="HedefArka" type="Label" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -1232.0
+offset_right = -1221.0
+offset_bottom = 1280.0
+grow_horizontal = 0
+scale = Vector2(-1, 1)
+pivot_offset = Vector2(616, 0)
+theme = SubResource("Theme_g08pd")
+
+[node name="AcceptDialog" type="AcceptDialog" parent="."]
+title = "Uyarı!"
+initial_position = 2
+size = Vector2i(380, 150)
+unresizable = true
+theme = SubResource("Theme_1gvfr")
+ok_button_text = "Sıfırla"
+dialog_text = "
+     Çekilen zikir sayısı sıfırlanacak emin misin?"
+
+[node name="HedefMenu" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 720.0
+offset_right = 1440.0
+offset_bottom = 1280.0
+
+[node name="Label" type="Label" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -80.0
+offset_top = 139.0
+offset_right = 14.0
+offset_bottom = 177.0
+grow_horizontal = 2
+theme = SubResource("Theme_f7fkh")
+theme_override_font_sizes/font_size = 20
+text = "Hedefler"
+
+[node name="CheckButton" type="CheckButton" parent="HedefMenu/Label"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 36.0
+offset_top = -33.0
+offset_right = 80.0
+offset_bottom = 19.0
+grow_horizontal = 2
+scale = Vector2(2, 2)
+focus_mode = 0
+theme_override_font_sizes/font_size = 30
+text = "
+"
+
+[node name="titresim" type="Button" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -149.0
+offset_top = -296.0
+offset_right = -75.0
+offset_bottom = -195.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+theme = SubResource("Theme_uemtg")
+theme_override_font_sizes/font_size = 25
+icon = ExtResource("3_ow1ja")
+
+[node name="Tema" type="Button" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 76.0
+offset_top = -296.0
+offset_right = 150.0
+offset_bottom = -195.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+theme = SubResource("Theme_uemtg")
+theme_override_font_sizes/font_size = 25
+icon = ExtResource("4_ow1ja")
+
+[node name="RenkArka" type="Label" parent="HedefMenu"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -199.5
+offset_top = -503.0
+offset_right = 200.5
+offset_bottom = -58.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = SubResource("Theme_xy7gs")
+
+[node name="Renk" type="Button" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -63.5
+offset_top = -130.0
+offset_right = 63.5
+offset_bottom = -85.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+theme = SubResource("Theme_fcqrf")
+toggle_mode = true
+text = "Arkaplan Rengi"
+
+[node name="RenkSecim" type="ColorPicker" parent="HedefMenu"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -149.0
+offset_top = -447.0
+offset_right = 149.0
+offset_bottom = -155.0
+grow_horizontal = 2
+grow_vertical = 0
+edit_alpha = false
+picker_shape = 2
+color_modes_visible = false
+sliders_visible = false
+hex_visible = false
+presets_visible = false
+
+[node name="Cıkar" type="Button" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.291667
+anchor_top = 0.264062
+anchor_right = 0.440278
+anchor_bottom = 0.348437
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+theme_override_font_sizes/font_size = 25
+text = "Çıkar"
+metadata/_edit_use_anchors_ = true
+
+[node name="Ipucu" type="Button" parent="HedefMenu"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.211111
+anchor_top = 0.0960938
+anchor_right = 0.313889
+anchor_bottom = 0.153906
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+theme_override_font_sizes/font_size = 25
+icon = ExtResource("5_481mv")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Ekle" type="Button" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.554167
+anchor_top = 0.264062
+anchor_right = 0.702778
+anchor_bottom = 0.348437
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+theme_override_font_sizes/font_size = 25
+text = "Ekle
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="GirilenYazi" type="LineEdit" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -208.0
+offset_top = 217.0
+offset_right = 208.0
+offset_bottom = 285.0
+grow_horizontal = 2
+theme = SubResource("Theme_7rce1")
+theme_override_font_sizes/font_size = 25
+placeholder_text = "Zikir,Sayısı"
+alignment = 1
+editable = false
+caret_blink = true
+
+[node name="hata" type="Label" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -339.5
+offset_right = 20.0
+offset_bottom = -316.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_481mv")
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="hata görünme" type="Timer" parent="HedefMenu"]
+wait_time = 2.0
+
+[node name="Hedef" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1122.0
+offset_top = 23.0
+offset_right = 1162.0
+offset_bottom = 63.0
+
+[node name="HedefAyar" type="Button" parent="Hedef"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -12.349
+anchor_top = 0.0224609
+anchor_right = -11.624
+anchor_bottom = 0.89746
+offset_left = -33.0406
+offset_top = -0.898438
+offset_right = 31.9594
+offset_bottom = 64.1016
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+theme_override_font_sizes/font_size = 40
+icon = ExtResource("3_rccky")
+icon_alignment = 1
+text_direction = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Control/HedefArka")
+libraries = {
+&"": SubResource("AnimationLibrary_yxt33")
+}
+autoplay = "Açılış"
+
+[node name="Acılıs-Kapanıs-Ekran" type="ColorRect" parent="."]
+visible = false
+offset_right = 720.0
+offset_bottom = 1280.0
+color = Color(0, 0, 0, 1)
+
+[connection signal="pressed" from="Control/Zikir" to="." method="_on_zikir_pressed"]
+[connection signal="pressed" from="Control/Sifirla" to="." method="_on_sifirla_pressed"]
+[connection signal="pressed" from="Control/Geri" to="." method="_on_geri_pressed"]
+[connection signal="confirmed" from="AcceptDialog" to="." method="_on_accept_dialog_confirmed"]
+[connection signal="toggled" from="HedefMenu/Label/CheckButton" to="." method="_on_check_button_toggled"]
+[connection signal="pressed" from="HedefMenu/titresim" to="." method="_on_titresim_pressed"]
+[connection signal="pressed" from="HedefMenu/Tema" to="." method="_on_tema_pressed"]
+[connection signal="toggled" from="HedefMenu/Tema" to="." method="_on_tema_toggled"]
+[connection signal="toggled" from="HedefMenu/Renk" to="." method="_on_renk_toggled"]
+[connection signal="color_changed" from="HedefMenu/RenkSecim" to="." method="_on_renk_secim_color_changed"]
+[connection signal="pressed" from="HedefMenu/Cıkar" to="." method="_on_cıkar_pressed"]
+[connection signal="pressed" from="HedefMenu/Ipucu" to="." method="_on_ipucu_pressed"]
+[connection signal="pressed" from="HedefMenu/Ekle" to="." method="_on_ekle_pressed"]
+[connection signal="timeout" from="HedefMenu/hata görünme" to="." method="_on_hata_görünme_timeout"]
+[connection signal="pressed" from="Hedef/HedefAyar" to="." method="_on_hedef_ayar_pressed"]

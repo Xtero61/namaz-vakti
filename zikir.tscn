@@ -1,10 +1,11 @@
-[gd_scene load_steps=39 format=3 uid="uid://da3ie55gvv5ci"]
+[gd_scene load_steps=42 format=3 uid="uid://da3ie55gvv5ci"]
 
 [ext_resource type="Script" uid="uid://cjk3legk0nj5i" path="res://zikir.gd" id="1_prh0u"]
 [ext_resource type="Texture2D" uid="uid://bcgl7f6g0ybbu" path="res://icon/left.png" id="2_g08pd"]
 [ext_resource type="Texture2D" uid="uid://xq0354nu3dvm" path="res://icon/Titreme.png" id="3_ow1ja"]
 [ext_resource type="Texture2D" uid="uid://d16kyrx6kc0uu" path="res://icon/settings.png" id="3_rccky"]
 [ext_resource type="Texture2D" uid="uid://02o565vimxyn" path="res://icon/moon.png" id="4_ow1ja"]
+[ext_resource type="Texture2D" uid="uid://bw8h4qtxvphoo" path="res://icon/ipucu.png" id="5_481mv"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m3rhq"]
 bg_color = Color(0.176471, 0.176471, 0.176471, 1)
@@ -258,9 +259,25 @@ corner_radius_top_right = 30
 corner_radius_bottom_right = 30
 corner_radius_bottom_left = 30
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0flv1"]
+bg_color = Color(0.114897, 0.114897, 0.114897, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.325441, 0.325441, 0.325441, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
 [sub_resource type="Theme" id="Theme_7rce1"]
 LineEdit/styles/focus = SubResource("StyleBoxFlat_f7fkh")
 LineEdit/styles/normal = SubResource("StyleBoxFlat_xnqpc")
+LineEdit/styles/read_only = SubResource("StyleBoxFlat_0flv1")
+
+[sub_resource type="Theme" id="Theme_481mv"]
+Label/constants/outline_size = 5
 
 [sub_resource type="Animation" id="Animation_yuyq1"]
 resource_name = "AyarlarAcilma"
@@ -557,6 +574,7 @@ text = "Sıfırla"
 metadata/_edit_use_anchors_ = true
 
 [node name="OptionButton" type="OptionButton" parent="Control"]
+visible = false
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -567,7 +585,6 @@ offset_right = 163.5
 offset_bottom = 108.0
 grow_horizontal = 2
 item_count = 1
-popup/item_0/text = "sabah"
 popup/item_0/id = 0
 
 [node name="Geri" type="Button" parent="Control"]
@@ -755,6 +772,23 @@ theme_override_font_sizes/font_size = 25
 text = "Çıkar"
 metadata/_edit_use_anchors_ = true
 
+[node name="Ipucu" type="Button" parent="HedefMenu"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.211111
+anchor_top = 0.0960938
+anchor_right = 0.313889
+anchor_bottom = 0.153906
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme = SubResource("Theme_px4cw")
+theme_override_font_sizes/font_size = 25
+icon = ExtResource("5_481mv")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
 [node name="Ekle" type="Button" parent="HedefMenu"]
 layout_mode = 1
 anchors_preset = -1
@@ -783,8 +817,32 @@ offset_bottom = 285.0
 grow_horizontal = 2
 theme = SubResource("Theme_7rce1")
 theme_override_font_sizes/font_size = 25
+placeholder_text = "Zikir,Sayısı"
 alignment = 1
+editable = false
 caret_blink = true
+
+[node name="hata" type="Label" parent="HedefMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -339.5
+offset_right = 20.0
+offset_bottom = -316.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_481mv")
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="hata görünme" type="Timer" parent="HedefMenu"]
+wait_time = 2.0
 
 [node name="Hedef" type="Control" parent="."]
 layout_mode = 3
@@ -832,11 +890,14 @@ color = Color(0, 0, 0, 1)
 [connection signal="pressed" from="Control/Sifirla" to="." method="_on_sifirla_pressed"]
 [connection signal="pressed" from="Control/Geri" to="." method="_on_geri_pressed"]
 [connection signal="confirmed" from="AcceptDialog" to="." method="_on_accept_dialog_confirmed"]
+[connection signal="toggled" from="HedefMenu/Label/CheckButton" to="." method="_on_check_button_toggled"]
 [connection signal="pressed" from="HedefMenu/titresim" to="." method="_on_titresim_pressed"]
 [connection signal="pressed" from="HedefMenu/Tema" to="." method="_on_tema_pressed"]
 [connection signal="toggled" from="HedefMenu/Tema" to="." method="_on_tema_toggled"]
 [connection signal="toggled" from="HedefMenu/Renk" to="." method="_on_renk_toggled"]
 [connection signal="color_changed" from="HedefMenu/RenkSecim" to="." method="_on_renk_secim_color_changed"]
 [connection signal="pressed" from="HedefMenu/Cıkar" to="." method="_on_cıkar_pressed"]
+[connection signal="pressed" from="HedefMenu/Ipucu" to="." method="_on_ipucu_pressed"]
 [connection signal="pressed" from="HedefMenu/Ekle" to="." method="_on_ekle_pressed"]
+[connection signal="timeout" from="HedefMenu/hata görünme" to="." method="_on_hata_görünme_timeout"]
 [connection signal="pressed" from="Hedef/HedefAyar" to="." method="_on_hedef_ayar_pressed"]
